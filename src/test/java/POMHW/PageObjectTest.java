@@ -20,7 +20,6 @@ public class PageObjectTest {
     public void setUpBrowser() {
         Browser.setBrowser();
     }
-
     @Test
     public void valid() {
         loginPage.open();
