@@ -21,7 +21,7 @@ public class PageObjectTest {
         Browser.setBrowser();
     }
     @Test
-    public void valid() {
+    public void validOrder() {
         loginPage.open();
         loginPage.setLogin("standard_user");
         loginPage.setPassword("secret_sauce");
